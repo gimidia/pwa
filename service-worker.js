@@ -1,9 +1,9 @@
 const CACHE_NAME = 'pwa-camera-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/service-worker.js',
+  '/pwa/',
+  '/pwa/index.html',
+  '/pwa/manifest.json',
+  '/pwa/service-worker.js',
   'https://cdn.jsdelivr.net/npm/dexie@3.0.3/dist/dexie.min.js'
 ];
 
