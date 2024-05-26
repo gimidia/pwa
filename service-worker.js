@@ -1,6 +1,6 @@
 const CACHE_NAME = 'pwa-camera-cache-v1';
 const urlsToCache = [
-  '/pwa/',
+  '/',
   '/index.html',
   '/manifest.json',
   '/service-worker.js',
