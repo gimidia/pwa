@@ -68,7 +68,7 @@
 
     function uploadPhoto(dataUrl) {
       // Enviar foto para o back-end PHP
-      return fetch('http://nazati.free.nf/upload.php', {
+      return fetch('https://nazati.free.nf/upload.php', {
         method: 'POST',
         body: JSON.stringify({ image: dataUrl }),
         headers: {
